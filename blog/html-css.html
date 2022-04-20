@@ -1,27 +1,69 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>TECHNICAL BLOG - TBC  </title>
+    <title>Inline vs Inline-block</title>
     <meta charset="UTF-8">
     <link href="../styles/main.css" rel="stylesheet" type="text/css">
   </head>
   
   <body>
-    <h1>TECHNICAL BLOG - TBC  (PAGE heading)</h1>
-    <h2>E kore e mau i a koe, he wae kai pakiaka. <em>A foot accustomed to running over roots makes the speediest runner.</em> (Optional SUB title) </h2>
-    <h3>10 November 2010</h3>
+
+    <nav>
+      <a href="../index.html">Back To Home</a>
+    </nav>
+
+    <header>
+      <h1>INLINE VS INLINE-BLOCK</h1>
+    </header>
+   
+    <main class="blogs-main">
+
+      <div class="intro-paragraph">
+        <p>Inline and inline block to me are a little bit like buying a new bookshelf with adjustable shelves and then 
+          trying to figure out and organise how to best fit your books and other items on there.
+          <br><br>
+          For this topic, we can start by breaking the concept down into 3 different ideas: block, inline, and inline-block.</p>
+      </div>
+
+      <div>
+        <h2>Block</h2>
+        <p>So imagine you have your new bookshelf up and you want to organise the few books that you have. You start 
+          by putting one book at the left on the top shelf and then go, great that will do for this shelf! Block is 
+          like putting one thing on a shelf and telling yourself that it needs the entire width of the shelf for itself. 
+          If it’s a massive book, or this is how you like to organise your book(s), then it might work well. But you might 
+          also be thinking there’s so much space to the right and I want to be able to start putting new books in there! 
+          What other ways can I do this. </p>
+        <h3>What does this look like in code?</h3>
+        <p>So imagine you had 5 <p> elements. Each with ‘book’. They will just stack on top of each other like this. Each has 
+            their own ‘block’ which takes up the whole width of the page, or the whole ‘shelf’.</p>
+      </div>
+
+      <div>
+        <h2>Inline</h2>
+        <p>So most people with lots of books would think, having one book on each shelf is not the most efficient way to do this. 
+          I should probably put them beside each other on the same shelf. That’s what inline does. The books we put together on 
+          the same shelf though are all of the same height as we are limited by the height of the shelf. We can’t obviously have 
+          a book that’s twice as high as the shelf we have.</p>
+        <h3>What does this look like in code?</h3>
+      </div>
+
+      <div>
+        <h2>Inline-Block</h2>
+        <p>Now, sometimes we don’t want to use a bookshelf just for books. We might also want to stack some boxes in there. Luckily 
+          the bookshelf we bought has adjustable shelves! And that’s where inline-block comes in. So you look at the shelf and realise 
+          the boxes you have can’t fit. Boom, lets just adjust the shelf so it’s bigger. Now we can stack these bigger boxes beside 
+          each other on the same shelf.</p>
+        <h3>So what does this look like in code?</h3>
+        <p>So in CSS we can set the display to display: inline-block. So if you have elements that you’ve styled to have a specific 
+          size you can now put them beside each other rather than just sitting on top of each other. </p>
+      </div>
+
+    </main>
     
-    <p>
-      Te Houtaewa was the fastest runner of his day and played many pranks on his peoples enemies. One morning his mother wanted kumara for the hangi (earth oven) and asked Te Houtaewa to go to the gardens at Te Kao, a short distance away. He agreed to fetch the kumara and told his mother to prepare the hangi.
-    </p>
-    <p>
-      Instead of going to the nearby gardens, Te Houtaewa set off for Ahipara as he wanted to annoy some Te Rarawa people who lived there. Carrying two large baskets for the kumara, he ran like the wind, completing the journey over the hard sands of Te Oneroa a Tohe (Ninety Mile Beach) in the few hours it takes a good hangi to heat up properly. On reaching Ahipara, he went straight to the people's kumara pataka (storehouse for the sweet potatoes) situated at the foot of the hill Whangatauatia.
-    </p>
-    <p>
-      While Te Houtaewa was filling his baskets with kumara he was spotted stealing the kai (food). He was immediately recognised.
-    </p>
-    
-    <!-- this is a comment. -->
+    <nav>
+      <a href="../index.html">Back To Home</a>
+    </nav>
+   
   
   </body>
 </html>

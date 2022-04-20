@@ -53,13 +53,15 @@ ul {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  align-content: flex-start;
+  align-content: center;
   justify-content: space-evenly;
   align-items: center;
 }
 
 .link {
   text-align: center;
+
+
 }
 
 .link:link, .link:visited {
@@ -75,7 +77,6 @@ ul {
   background-color: #fab652;
   opacity: 0.8;
   border: 5px solid #e9cdcd;
-  transition: background-color 1.5s;
   transition: border 0.8s;
 }
 
@@ -88,7 +89,11 @@ ul {
 }
 
 strong {
-  font-size: 2rem;
+  font-size: 1.5rem;
+}
+
+em {
+  font-size: 0.9rem;
 }
 
     /* Footer */

@@ -1,14 +1,16 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  /* border: 1px solid red; */
   font-family: 'Open Sans', sans-serif;
   font-size: 2vmin;
+  /* border: 1px solid red; */
 }
 
 /* For index.html hompage */
 
-h1 {
+    /* HEADER section */
+
+#home-title {
   font-size: 5rem;
 }
 
@@ -25,6 +27,8 @@ h1 {
 }
 
 ul {
+  background-image: url(./Images/cookie-the-pom-siNDDi9RpVY-unsplash.jpg);
+  background-size: 50% 100%;
   padding: 0%;
   list-style: none;
   height: 70vh;
@@ -37,9 +41,10 @@ ul {
   background-color: #d2fbd2;
 }
 
+    /* UL Section */
+
 .link {
   text-align: center;
-
 }
 
 .link:link, .link:visited {
@@ -54,10 +59,10 @@ ul {
 
 .link:hover {
   background-color: #fab652;
-  margin-right: 5px;
-  padding: 10px;
   opacity: 0.8;
-  border: 5px solid #e9cdcd
+  border: 5px solid #e9cdcd;
+  transition: background-color 1.5s;
+  transition: border 0.8s;
 }
 
 .values:hover {

@@ -1,6 +1,8 @@
 :root {
   --background-color-home: #fad3c4;
   --background-color-tech: #fab652;
+  --background-color-values: #d6d2fb;
+  --background-color-learning: #eee8b2;
 }
 
 * {
@@ -66,7 +68,7 @@ ul {
 }
 
 .link:hover {
-  background-color: var(--background-color-tech);
+  background-color: var(--background-color-home);
   opacity: 0.8;
   border: 5px solid #e9cdcd;
   transition: border 0.8s;
@@ -80,11 +82,11 @@ ul {
 }
 
 .values:hover {
-  background-color: #d6d2fb
+  background-color: var(--background-color-values);
 }
 
 .learning:hover {
-  background-color: #eee8b2
+  background-color: var(--background-color-learning);
 }
 
 strong {
@@ -100,6 +102,14 @@ em {
 
 .tech-header {
   background-color: var(--background-color-tech);
+}
+
+.values-header {
+  background-color: var(--background-color-values);
+}
+
+.learning-header {
+  background-color: var(--background-color-learning);
 }
 
 .blog-main {

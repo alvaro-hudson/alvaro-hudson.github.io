@@ -40,7 +40,7 @@
   margin-bottom: 20px;
 }
 
-ul {
+.blog-links {
   background-image: url(./Images/cookie-the-pom-siNDDi9RpVY-unsplash.jpg);
   background-size: 50% 100%;
   padding: 0%;
@@ -160,4 +160,8 @@ em {
 
 .inline-block-image {
   height: 15vmax;
+}
+
+article {
+  margin: 20px;
 }

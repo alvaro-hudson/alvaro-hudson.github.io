@@ -81,6 +81,10 @@ ul {
   color: white;
 }
 
+.tech:hover {
+  background-color: var(--background-color-tech);
+}
+
 .values:hover {
   background-color: var(--background-color-values);
 }

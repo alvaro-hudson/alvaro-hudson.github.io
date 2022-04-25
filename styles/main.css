@@ -3,6 +3,7 @@
   --background-color-tech: #fab652;
   --background-color-values: #d6d2fb;
   --background-color-learning: #eee8b2;
+  --background-color-eq: rgb(212, 239, 219);
 }
 
 * {
@@ -93,6 +94,10 @@
   background-color: var(--background-color-learning);
 }
 
+.eq:hover {
+  background-color: var(--background-color-eq);
+}
+
 strong {
   font-size: 1.5rem;
 }
@@ -114,6 +119,10 @@ em {
 
 .learning-header {
   background-color: var(--background-color-learning);
+}
+
+.eq-header {
+  background-color: var(--background-color-eq);
 }
 
 .blog-main {

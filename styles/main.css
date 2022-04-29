@@ -37,6 +37,11 @@
    margin: 2.5% 5%;
 }
 
+.about-me p {
+  line-height: 1.5em;
+  margin: 20px 0px;
+}
+
 #about-me-title {
   font-size: 1.5rem;
   margin-bottom: 20px;
@@ -103,13 +108,11 @@
   background-color: var(--background-color-js)
 }
 
-strong {
+.bold {
   font-size: 1.5rem;
 }
 
-em {
-  font-size: 0.9rem;
-}
+
 
 
 /* FOR BLOG POSTS */

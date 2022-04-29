@@ -19,32 +19,34 @@
    
     <main class="blog-main">
 
-      <h4>An analogy to describe the differences between HTML, CSS, and Javascript</h4>
+      <h2>Javascript and the DOM</h2>
+
+      <h3>An analogy to describe the differences between HTML, CSS, and Javascript</h3>
       <p>HTML/CSS/JS are a little bit like designing a house. Firstly you want to decide the basic elements of what you want. So you go, alright, I want a living room, two bedrooms, bathroom, kitchen, laundry. In the living room I want a couch, tv, coffee table, in the toilet I want a bath and a toilet, in the bedrooms I want a bed and a bedside table etc etc. So we know the rooms and what we want in them, first step done, and we can compare this to HTML. </p>
       <p>But how big is each room going to be? Will they be wallpapered or painted? What style of furniture and appliances do you want? Carpet or wooden floors? CSS is making your basic design and vision for the house come to life. So HTML breaks it up into sections, eg living room and within the living room section is a couch and TV. CSS then takes that section and designs and styles it.</p>
       <p>But what is a lovely looking house if nothing in it actually works. The light switches do nothing, you turn on the taps and no water comes out. You put the key in the front door and it doesn’t turn. Javascript is the interactive part of a website, it’s what makes a house truly liveable. It makes sure the appliances and fittings you have actually work. While you made sure your toilet was in the right room, and you bought the newest, shiniest model, a toilet’s no fun if it doesn’t flush.</p>
     
        
     
-      <h4>Explain control flow and loops using an example process from everyday life</h4>
+      <h3>Explain control flow and loops using an example process from everyday life</h3>
       <p>Control flow and loops are like using a self-service machine at the supermarket. There’s a certain order to it and you have to repeat yourself a lot.</p>
       <p>Control flow refers to the order (flow) in which you do something. So at the self-service machine you want to scan the items first before you pay. If you tried to pay first the machine would go ‘ahh but I don’t know how much this is yet’! So the flow/order in which you write code is important.</p>
       <p>A loop is code that makes its possible to have something be done over and over until you tell it to stop. So at the self-service a loop is like when you scan your items. You have 12 items for example, which we could compare to having 12 items in an array. You have to scan each item and it does the same thing each time, it reads the barcode and it shows the item on the screen. It’s like looping through an array and console logging each item. Instead of writing a piece of code for each separate item in an array, you can create a loop that does the same action over and over until you tell it to stop, in this case scanning each item in the same way until you run out of items.</p>
     
 
   
-      <h4>Describe what the DOM is and an example of how you might interact with it</h4>
+      <h3>Describe what the DOM is and an example of how you might interact with it</h3>
       <p>The DOM (Document Object Model) is a version of your code that can be adjusted and manipulated in a place like Chrome DevTools. It’s your code but seen as a big massive family tree that you can interact with. It can be helpful to think of it the other way around, as being a Model of the Objects on your Document (a representation of the elements/content in your code). </p>
       <p>Another way to imagine it and how you can interact with it is to think back to when teachers in school used to use overhead projectors and that clear plastic sheet they could put over a piece of paper on the projector to then write on. So your code is what’s on the actual piece of paper. The projector then takes what is on the paper and blows it up on to a big white canvas on the wall. Very simply, you can think of what’s now showing on the canvas as representing the DOM, and we can pretend the plastic sheet is Devtools. On the plastic sheet you can write on it, cross things out, write extra bits of info and all you are doing is changing the projection on the wall (the DOM); the actual piece of paper (your original code) is still the same.</p>
     
 
   
-      <h4>Explain the difference between accessing data from arrays and objects</h4>
+      <h3>Explain the difference between accessing data from arrays and objects</h3>
       <p>Arrays and objects are both means of storing information, just in different ways. I tend to think of arrays being a single file line of information, while objects are grouped bits of information.</p>
       <p>You can imagine an array as being a <strong>stack</strong> of documents on your desk and an object as being an organised file <strong>cabinet</strong>. Just because the items on your desk are stacked in a single pile doesn’t mean they aren’t organised. You can say, I need the first piece of paper, so in code this could look like <strong>stack[0]</strong> (the first one is always ‘0’). Or maybe you needed the 5th piece of paper, so <strong>stack[4]</strong>. But perhaps you’ve left red post-it notes on specific documents. In person you would go up to your desk, potentially lick your finger, and then go one by one through the stack and pull out all the documents with a red tag, and likely put them in a new stack. In code, you can do the same thing with arrays by looping though them.</p>
       <p>With an object, it can be a little bit like opening your file cabinet and seeing the documents filed under specific names. So lets say you needed a document filed under ‘taxes’. In person you open the cabinet firstly, look for the ‘taxes’ label, then pull out the document. In code you can do this by going <strong>cabinet.taxes</strong>. But what’s great about Objects is that you can store not just plain information, but also arrays and functions for example. So lets say you want to file that stack of documents on your desk. You can just put the whole stack in a section in the file cabinet and label it under ‘stack’. Now you want that 5th of paper again. Just go <strong>cabinet.stack[4]</strong>. </p>
     
-      <h4>Explain what functions are and why they are helpful</h4>
+      <h3>Explain what functions are and why they are helpful</h3>
       <p>Functions enable you to give instructions to a computer on how to complete a specific task. What’s handy about functions is that you can use them over and over. Returning to the earlier analogy of scanning your food over and over at a self-checkout, a function is a way of having this complete process run by one single chunk of code, a function. So the within the function, you can include the loop for food being scanned over and over until there are no items left, and then also add, for example, a way for the machine to add up the cost and give you a receipt. Having a function like this is great because for every customer that comes up to the checkout, you can use the same piece of code.</p>
       
     </main>

@@ -5,6 +5,7 @@
   --background-color-learning: #eee8b2;
   --background-color-eq: rgb(212, 239, 219);
   --background-color-js: rgb(148, 230, 230);
+  --background-color-mindset: rgb(232, 172, 217);
 }
 
 * {
@@ -108,6 +109,10 @@
   background-color: var(--background-color-js)
 }
 
+.mindset:hover {
+  background-color: var(--background-color-mindset);
+}
+
 .bold {
   font-size: 1.5rem;
 }
@@ -133,6 +138,10 @@
 
 .js-header {
   background-color: var(--background-color-js)
+}
+
+.mindset-header{
+  background-color: var(--background-color-mindset);
 }
 
 .blog-main {

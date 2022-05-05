@@ -6,6 +6,8 @@
   --background-color-eq: rgb(212, 239, 219);
   --background-color-js: rgb(148, 230, 230);
   --background-color-mindset: rgb(232, 172, 217);
+  --background-color-problem: rgb(252, 113, 113);
+  --background-color-future: rgb(162, 237, 171);
 }
 
 * {
@@ -53,33 +55,33 @@
   background-size: 50% 100%;
   padding: 0%;
   list-style: none;
-  height: 70vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-content: center;
   justify-content: space-evenly;
-  align-items: center;
 }
 
 .link {
   text-align: center;
-}
-
-.link:link, .link:visited {
+  transition: all 1s;
+  opacity: 0.9;
+  width: 40%;
+  border-radius: 10%;
   padding: 10px;
   text-decoration: none;
   border: 2px solid ;
-  border-radius: 10%;
   color: #000;
   background-color: #afe2e6 ;
 }
+
 
 .link:hover {
   background-color: var(--background-color-home);
   opacity: 0.8;
   border: 5px solid #e9cdcd;
-  transition: border 0.8s;
+  padding: 1.5%;
 }
 
 .other-links {
@@ -113,6 +115,14 @@
   background-color: var(--background-color-mindset);
 }
 
+.problem:hover {
+  background-color: var(--background-color-problem);
+}
+
+.future:hover {
+  background-color: var(--background-color-future);
+}
+
 .bold {
   font-size: 1.5rem;
 }
@@ -142,6 +152,10 @@
 
 .mindset-header{
   background-color: var(--background-color-mindset);
+}
+
+.problem-header {
+  background-color: var(--background-color-problem)
 }
 
 .blog-main {

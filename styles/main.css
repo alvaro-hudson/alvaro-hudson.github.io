@@ -51,7 +51,7 @@
 }
 
 .blog-links {
-  background-image: url(https://i.redd.it/s3yvja8kmn671.png);
+  background-image: url(https://img.freepik.com/free-vector/stylish-hexagonal-line-pattern-background_1017-19742.jpg?w=2000);
   background-size: cover;
   padding: 0%;
   list-style: none;
@@ -177,6 +177,17 @@
   margin: 30px;
   font-size: 1.1rem;
   text-align: center;
+}
+
+.blog-main h4 {
+  margin: 30px;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: underline overline;
+}
+
+.blog-main li {
+  margin: 15px;
 }
 
 .blog-main p {

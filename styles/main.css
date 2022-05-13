@@ -7,7 +7,7 @@
   --background-color-js: rgb(148, 230, 230);
   --background-color-mindset: rgb(232, 172, 217);
   --background-color-problem: rgb(252, 113, 113);
-  --background-color-future: rgb(162, 237, 171);
+  --background-color-foundations: rgb(162, 237, 171);
 }
 
 * {
@@ -119,9 +119,10 @@
   background-color: var(--background-color-problem);
 }
 
-.future:hover {
-  background-color: var(--background-color-future);
+.foundations:hover {
+  background-color: var(--background-color-foundations);
 }
+
 
 .bold {
   font-size: 1.5rem;
@@ -156,6 +157,10 @@
 
 .problem-header {
   background-color: var(--background-color-problem)
+}
+
+.foundations-header {
+  background-color: var(--background-color-foundations)
 }
 
 .blog-main {
